@@ -26,3 +26,33 @@ header p {
   padding: 0 20px;
   margin: 0;
 }
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url(officialvalois.jpg);
+  background-size: cover;
+  height: 900px;
+
+}
+
+.jumbotron h2 {
+  font-weight: 700;
+  font-size: 150px;
+  margin: 0;
+  color: #e15036;
+}
+
+.jumbotron h3 {
+  font-size: 45px;
+  font-weight: 200;
+  color: #b27368;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  text-shadow: none;
+  color: #fff;
+  background-color: #e15036;
+}
