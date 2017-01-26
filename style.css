@@ -1,6 +1,13 @@
-body {
+html, body {
   font-weight: 300;
   font-family: 'Slabo 27px', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
 }
 
 header {
@@ -30,9 +37,10 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url(officialvalois.jpg);
+  background: url(officialvalois.jpg)no-repeat;
   background-size: cover;
   height: 900px;
+  margin-bottom: 0px;
 
 }
 
@@ -55,4 +63,49 @@ header p {
   text-shadow: none;
   color: #fff;
   background-color: #e15036;
+}
+
+.section > .btn{
+      background-color: rgba(216,25,47,.5);
+      border: 0px;
+      margin-top: 10px;
+      color: #fff;
+      padding:10px 15px; }
+.section > .btn:hover {
+  background-color:rgba(216,25,47,1);
+  box-shadow:0 2px 4px rgba(0,0,0,.5);
+  color:#fff;  }
+
+.banner {
+  background-color:#f2beb5;
+  height:180px;
+  color: #fff; }
+.banner, .supporting {
+  text-align: center;
+  padding-top: 20px; }
+
+.section {
+  text-align: center;
+}
+
+.section ul {
+  padding: 0;
+  margin-top: 10px;
+  list-style-type: none;
+}
+
+section h3 {
+  color: #000;
+}
+
+.section h4 {
+  color: #d8192f;
+  margin: 30px 0 20px;
+  font-size: 20px;
+  padding: 0;
+}
+
+.section a {
+  text-decoration: none;
+  color: #000;
 }
