@@ -109,3 +109,24 @@ section h3 {
   text-decoration: none;
   color: #000;
 }
+
+.footer {
+  background-color: #e15036;
+  color: #fff;
+}
+
+.footer p {
+  margin-top: 27px;
+}
+
+.footer li {
+  margin-top: 7px;
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.footer .nav a {
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+}
